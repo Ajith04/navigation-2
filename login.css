@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(to right,#103ce7, #64e9ff);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 760px;
+    height: 450px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px gray;
+    
+}
+
+.left{
+    width: 380px;
+    height: 450px;
+    background-image:url(./assets/images/bg-img.jpg);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    float: left;
+   
+}
+
+p{
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    text-shadow:1px 1px 30px black;
+}
+
+.right{
+    width: 380px;
+    height: 450px;
+    float: right;
+    background-color: aqua;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    text-shadow: 1px 1px 60px rgb(0, 0, 0);
+}
+
+.row{
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+label{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 50px black;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid orange;
+    height: 25px;
+}
+
+.col{
+    
+    display: grid;
+    justify-content: center;
+    width: 170px;
+}
+
+.btn{
+margin-top: 30px;
+display: flex;
+justify-content: end;
+margin-right: 40px;
+}
+
+button{
+    padding: 10px;
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:chocolate;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: coral;
+    color: aliceblue;
+    border-color: black;
+}
+
+input:hover{
+    border-color: rgb(0, 0, 0);
+}
