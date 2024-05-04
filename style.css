@@ -2,10 +2,13 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to right,#ff8473, #fff9d2);
+  
 }
 
 .container {
   width: 1200px;
+  
 }
 
 .navbar {
@@ -70,5 +73,5 @@ body {
     z-index: 3;
     left: 1050px;
     top: -127px;
-    box-shadow: 5px 5px 30px black;
+    box-shadow: 5px 5px 40px black;
 }
